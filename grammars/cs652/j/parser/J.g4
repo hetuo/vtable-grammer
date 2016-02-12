@@ -1,0 +1,9 @@
+grammar J;
+
+file:   ...
+    ;
+
+main:   ...
+    ;
+
+...
