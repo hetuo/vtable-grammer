@@ -7,12 +7,12 @@
 	</parent>
 
 	<groupId>edu.usfca.cs652</groupId>
-	<artifactId>vtable</artifactId>
+	<artifactId>vtable-symtab</artifactId>
 	<packaging>jar</packaging>
 
 	<version>1.0</version>
 
-	<name>vtable generator</name>
+	<name>vtable semantic analysis</name>
 	<description>Parse J, translate to C vtables</description>
 
 	<dependencies>
@@ -32,12 +32,6 @@
 			<groupId>org.antlr</groupId>
 			<artifactId>symtab</artifactId>
 			<version>1.0.7</version>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.antlr</groupId>
-			<artifactId>ST4</artifactId>
-			<version>4.0.9-SNAPSHOT</version>
 			<scope>compile</scope>
 		</dependency>
 	</dependencies>
