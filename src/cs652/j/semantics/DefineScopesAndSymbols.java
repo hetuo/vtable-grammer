@@ -97,7 +97,6 @@ public class DefineScopesAndSymbols extends JBaseListener {
         JVar v = new JVar(ctx.Identifier().getText(), ctx);
         Type type = (Type)currentScope.resolve(ctx.typeType().getText());
         v.setType(type);
-        System.out.println("local var define: " + v.getName());
         currentScope.define(v);
         ctx.type = type;
     }
@@ -141,54 +140,31 @@ public class DefineScopesAndSymbols extends JBaseListener {
     {
         currentScope = currentScope.getEnclosingScope().getEnclosingScope();
     }
-/*
+
     @Override
-    public void exitPrimaryRef(JParser.PrimaryRefContext ctx)
-    {
-        ctx.type = ctx.primary().type;
+    public void enterInd(JParser.IndContext ctx) {
+        ctx.flag = 1;
     }
 
     @Override
-    public void exitFuncRef(JParser.FuncRefContext ctx)
-    {
-        ctx.type = ctx.expression().type;
+    public void exitDotRef(JParser.DotRefContext ctx) {
+        ((JParser.IndContext)((JParser.IndRefContext)ctx.getChild(2)).getChild(0)).flag = 0;
     }
 
     @Override
-    public void exitDotRef(JParser.DotRefContext ctx)
-    {
-        Scope s = (Scope) ctx.expression().type;
-        if (s == null)
-            ctx.type = JVOID_TYPE;
-        else
-            ctx.type = (Type)s.resolve(ctx.Identifier().getText());
-        //ctx.type = ctx.expression().type;
+    public void enterDotRef(JParser.DotRefContext ctx) {
+        ctx.flag = 1;
     }
-*/
-   /* @Override
-    public void exitPrimary(JParser.PrimaryContext ctx)
-    {
-        if (ctx.expression() != null)
-            ctx.type = ctx.expression().type;
-        if (ctx.Identifier() != null) {
-            if (ctx.Identifier().getText().equals("printf"))
-                ctx.type = JVOID_TYPE;
-            else
-            {
-                //ctx.type =  ((VariableSymbol)currentScope.resolve(ctx.Identifier().getText())).getType();
-                ctx.type = JVOID_TYPE;
-            }
-        }
-        if (ctx.literal() != null)
+
+    @Override
+    public void exitFuncRef(JParser.FuncRefContext ctx) {
+        if (ctx.getChild(0) instanceof  JParser.DotRefContext)
         {
-            if (ctx.literal().IntegerLiteral() != null)
-                ctx.type = JINT_TYPE;
-            else if (ctx.literal().FloatingPointLiteral() != null)
-                ctx.type = JFLOAT_TYPE;
-            else if (ctx.literal().StringLiteral() != null)
-                ctx.type = JSTRING_TYPE;
-            else
-                ctx.type = JVOID_TYPE;
+            ((JParser.DotRefContext)ctx.getChild(0)).flag = 0;
         }
-    }*/
+        if (ctx.getChild(0) instanceof JParser.IndRefContext)
+        {
+            ((JParser.IndContext)((JParser.IndRefContext)ctx.getChild(0)).getChild(0)).flag = 0;
+        }
+    }
 }

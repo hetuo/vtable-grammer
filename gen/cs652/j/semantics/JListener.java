@@ -284,6 +284,16 @@ public interface JListener extends ParseTreeListener {
 	 */
 	void exitCreatorRef(JParser.CreatorRefContext ctx);
 	/**
+	 * Enter a parse tree produced by {@link JParser#ind}.
+	 * @param ctx the parse tree
+	 */
+	void enterInd(JParser.IndContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link JParser#ind}.
+	 * @param ctx the parse tree
+	 */
+	void exitInd(JParser.IndContext ctx);
+	/**
 	 * Enter a parse tree produced by {@link JParser#literal}.
 	 * @param ctx the parse tree
 	 */

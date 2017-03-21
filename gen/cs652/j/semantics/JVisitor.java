@@ -177,6 +177,12 @@ public interface JVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitCreatorRef(JParser.CreatorRefContext ctx);
 	/**
+	 * Visit a parse tree produced by {@link JParser#ind}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitInd(JParser.IndContext ctx);
+	/**
 	 * Visit a parse tree produced by {@link JParser#literal}.
 	 * @param ctx the parse tree
 	 * @return the visitor result

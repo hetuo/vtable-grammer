@@ -99,8 +99,8 @@ statementExpression
     :   expression
     ;
 
-expression  returns [Type type]
-    :   Identifier   #IndRef
+expression  returns [Type type, int flag]
+    :   ind   #IndRef
     |   expression '.' expression  #DotRef
     |   'new' creator   #CreatorRef
     |   expression '(' expressionList  ')' #FuncRef
@@ -110,6 +110,8 @@ expression  returns [Type type]
         expression  #AssignRef
     |   literal #LiteralRef
     ;
+
+ind returns [int flag]: Identifier;
 
 literal
     :   IntegerLiteral

@@ -2,225 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a29b0830-f33c-42f0-b584-d6eebe12bdcc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/TwoClasses.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/TwoClasses.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_4_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_symtab_1_0_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/cs652/j/semantics/J.tokens" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/cs652/j/semantics/JBaseListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/cs652/j/semantics/JBaseVisitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/cs652/j/semantics/JLexer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/cs652/j/semantics/JLexer.tokens" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/cs652/j/semantics/JListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/cs652/j/semantics/JParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/cs652/j/semantics/JVisitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grammars/cs652/j/semantics/Test.g4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/Args.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/Args.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/Assign.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/Assign.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/AssignFromCall.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/AssignFromCall.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/Fields.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/Fields.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/FieldsFromOutside.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/FieldsFromOutside.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/Inherit.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/Inherit.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/InheritFieldTestInMethod.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/InheritFieldTestInMethod.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/InheritFields.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/InheritFields.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/InheritFields3Level.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/InheritFields3Level.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/InheritMethods3Level.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/InheritMethods3Level.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/Lots.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/Lots.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/Method.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/Method.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/MultiMethods.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/MultiMethods.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/Return.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/Return.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/TwoClasses.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/deep_hier.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/deep_hier.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/if.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/if.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/ifelse.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/ifelse.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/polymorph.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/polymorph.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/print.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/print.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/qcall.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/qcall.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/retval.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/retval.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/symtab.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/symtab.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/vehicle.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/vehicle.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/vtable_check.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/vtable_check.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/while.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/samples/while.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/tmp/Args.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/tmp/Assign.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/tmp/AssignFromCall.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/tmp/Fields.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/tmp/FieldsFromOutside.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/tmp/Inherit.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/tmp/InheritFieldTestInMethod.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/tmp/InheritFields.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/tmp/InheritFields3Level.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/tmp/InheritMethods3Level.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/tmp/Lots.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/tmp/Method.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/tmp/MultiMethods.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/tmp/Return.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/tmp/TwoClasses.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/tmp/deep_hier.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/tmp/if.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/tmp/ifelse.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/tmp/polymorph.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/tmp/print.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/tmp/qcall.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/tmp/retval.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/tmp/symtab.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/tmp/vehicle.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/tmp/vtable_check.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/tmp/while.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/cs652/j/semantics/J.g4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/cs652/j/semantics/J.tokens" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/cs652/j/semantics/J1.g4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/cs652/j/semantics/JLexer.tokens" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/cs652/j/semantics/Test.g4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/Args.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/Args.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/Args.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/Assign.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/Assign.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/Assign.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/AssignFromCall.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/AssignFromCall.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/AssignFromCall.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/Fields.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/Fields.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/Fields.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/FieldsFromOutside.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/FieldsFromOutside.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/FieldsFromOutside.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/Inherit.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/Inherit.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/Inherit.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/InheritFieldTestInMethod.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/InheritFieldTestInMethod.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/InheritFieldTestInMethod.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/InheritFields.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/InheritFields.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/InheritFields.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/InheritFields3Level.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/InheritFields3Level.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/InheritFields3Level.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/InheritMethods3Level.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/InheritMethods3Level.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/InheritMethods3Level.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/Lots.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/Lots.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/Lots.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/Method.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/Method.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/Method.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/MultiMethods.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/MultiMethods.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/MultiMethods.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/Return.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/Return.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/Return.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/TwoClasses.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/TwoClasses.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/deep_hier.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/deep_hier.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/deep_hier.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/if.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/if.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/if.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/ifelse.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/ifelse.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/ifelse.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/polymorph.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/polymorph.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/polymorph.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/print.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/print.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/print.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/qcall.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/qcall.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/qcall.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/retval.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/retval.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/retval.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/symtab.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/symtab.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/symtab.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/vehicle.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/vehicle.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/vehicle.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/vtable_check.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/vtable_check.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/vtable_check.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/while.defs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/while.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/samples/while.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/tmp/Args.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/tmp/Assign.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/tmp/AssignFromCall.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/tmp/Fields.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/tmp/FieldsFromOutside.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/tmp/Inherit.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/tmp/InheritFieldTestInMethod.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/tmp/InheritFields.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/tmp/InheritFields3Level.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/tmp/InheritMethods3Level.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/tmp/Lots.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/tmp/Method.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/tmp/MultiMethods.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/tmp/Return.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/tmp/TwoClasses.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/tmp/deep_hier.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/tmp/if.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/tmp/ifelse.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/tmp/polymorph.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/tmp/print.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/tmp/qcall.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/tmp/retval.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/tmp/symtab.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/tmp/vehicle.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/tmp/vtable_check.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/tmp/while.j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/cs652/j/TestExprTypes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/cs652/j/TestSymbolDefs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vtable.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/grammars/cs652/j/parser/J.g4" afterPath="$PROJECT_DIR$/grammars/cs652/j/semantics/J1.g4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/cs652/j/semantics/JBaseListener.java" afterPath="$PROJECT_DIR$/gen/cs652/j/semantics/JBaseListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/cs652/j/semantics/JBaseVisitor.java" afterPath="$PROJECT_DIR$/gen/cs652/j/semantics/JBaseVisitor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/cs652/j/semantics/JListener.java" afterPath="$PROJECT_DIR$/gen/cs652/j/semantics/JListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/cs652/j/semantics/JParser.java" afterPath="$PROJECT_DIR$/gen/cs652/j/semantics/JParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/cs652/j/semantics/JVisitor.java" afterPath="$PROJECT_DIR$/gen/cs652/j/semantics/JVisitor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grammars/cs652/j/semantics/J.g4" afterPath="$PROJECT_DIR$/grammars/cs652/j/semantics/J.g4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cs652/j/semantics/ComputeTypes.java" afterPath="$PROJECT_DIR$/src/cs652/j/semantics/ComputeTypes.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cs652/j/semantics/DefineScopesAndSymbols.java" afterPath="$PROJECT_DIR$/src/cs652/j/semantics/DefineScopesAndSymbols.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/cs652/j/CommonBaseTest.java" afterPath="$PROJECT_DIR$/test/cs652/j/CommonBaseTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/cs652/j/TestParser.java" afterPath="$PROJECT_DIR$/test/cs652/j/TestParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cs652/j/semantics/J.g4" afterPath="$PROJECT_DIR$/target/classes/cs652/j/semantics/J.g4" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -236,31 +27,30 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ComputeTypes.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ComputeTypes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cs652/j/semantics/ComputeTypes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="155" column="13" lean-forward="false" selection-start-line="155" selection-start-column="13" selection-end-line="155" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="435">
+              <caret line="81" column="19" lean-forward="true" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
+              <folding>
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#826#827#0" expanded="true" />
+                <element signature="e#891#892#0" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+                <element signature="e#997#998#0" expanded="true" />
+                <element signature="e#1037#1038#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lots.j" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/samples/Lots.j">
+      <file leaf-file-name="DefineScopesAndSymbols.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cs652/j/semantics/DefineScopesAndSymbols.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="J.g4" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grammars/cs652/j/semantics/J.g4">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+            <state relative-caret-position="981">
+              <caret line="98" column="24" lean-forward="false" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -304,6 +94,8 @@
       <find>setScope</find>
       <find>statement</find>
       <find>statementExpression</find>
+      <find>insta</find>
+      <find>printf</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -329,13 +121,13 @@
         <option value="$PROJECT_DIR$/src/cs652/j/semantics/JVar.java" />
         <option value="$PROJECT_DIR$/src/cs652/j/semantics/JPrimitiveType.java" />
         <option value="$PROJECT_DIR$/resources/samples/Args.j" />
-        <option value="$PROJECT_DIR$/src/cs652/j/semantics/DefineScopesAndSymbols.java" />
         <option value="$PROJECT_DIR$/resources/samples/symtab.j" />
-        <option value="$PROJECT_DIR$/grammars/cs652/j/semantics/J.g4" />
-        <option value="$PROJECT_DIR$/resources/samples/deep_hier.j" />
         <option value="$PROJECT_DIR$/resources/samples/retval.j" />
         <option value="$PROJECT_DIR$/resources/samples/Lots.j" />
+        <option value="$PROJECT_DIR$/grammars/cs652/j/semantics/J.g4" />
+        <option value="$PROJECT_DIR$/resources/samples/deep_hier.j" />
         <option value="$PROJECT_DIR$/src/cs652/j/semantics/ComputeTypes.java" />
+        <option value="$PROJECT_DIR$/src/cs652/j/semantics/DefineScopesAndSymbols.java" />
       </list>
     </option>
   </component>
@@ -367,7 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -441,43 +233,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vtable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vtable-grammar-hetuo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="samples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vtable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vtable-grammar-hetuo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="grammars" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="semantics" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -497,7 +253,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -506,7 +262,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.TestParser">
+  <component name="RunManager" selected="JUnit.TestSymbolDefs">
     <configuration default="false" name="TestParser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -796,9 +552,9 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestParser" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestSymbolDefs" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestExprTypes" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestSymbolDefs" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestExprTypes" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestParser" />
       </list>
     </recent_temporary>
   </component>
@@ -816,34 +572,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestExprTypes - 2017.03.08 at 16h 27m 57s.xml">
+    <history-entry file="TestExprTypes - 2017.03.20 at 20h 13m 00s.xml">
       <configuration name="TestExprTypes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestExprTypes - 2017.03.08 at 16h 30m 18s.xml">
+    <history-entry file="TestExprTypes - 2017.03.20 at 20h 18m 16s.xml">
       <configuration name="TestExprTypes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestExprTypes - 2017.03.08 at 16h 32m 16s.xml">
+    <history-entry file="TestExprTypes - 2017.03.20 at 20h 18m 43s.xml">
       <configuration name="TestExprTypes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestExprTypes - 2017.03.08 at 16h 33m 51s.xml">
+    <history-entry file="TestExprTypes - 2017.03.20 at 20h 22m 46s.xml">
       <configuration name="TestExprTypes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestExprTypes - 2017.03.08 at 16h 34m 35s.xml">
+    <history-entry file="TestExprTypes - 2017.03.20 at 20h 23m 13s.xml">
       <configuration name="TestExprTypes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestExprTypes - 2017.03.08 at 16h 35m 59s.xml">
+    <history-entry file="TestExprTypes - 2017.03.20 at 20h 24m 41s.xml">
       <configuration name="TestExprTypes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestExprTypes - 2017.03.08 at 16h 36m 59s.xml">
+    <history-entry file="TestExprTypes - 2017.03.20 at 20h 25m 09s.xml">
       <configuration name="TestExprTypes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestExprTypes - 2017.03.08 at 16h 37m 18s.xml">
-      <configuration name="TestExprTypes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestParser - 2017.03.08 at 16h 37m 29s.xml">
+    <history-entry file="TestParser - 2017.03.20 at 20h 23m 03s.xml">
       <configuration name="TestParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSymbolDefs - 2017.03.08 at 16h 37m 24s.xml">
+    <history-entry file="TestSymbolDefs - 2017.03.20 at 20h 23m 08s.xml">
+      <configuration name="TestSymbolDefs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSymbolDefs - 2017.03.20 at 20h 25m 16s.xml">
       <configuration name="TestSymbolDefs" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -861,20 +617,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21207431" sideWeight="0.50278884" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24767801" sideWeight="0.49721116" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33281735" sideWeight="0.49721116" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29482073" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29960158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39628482" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -897,14 +653,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grammars/cs652/j/semantics/Test.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="132" column="32" lean-forward="false" selection-start-line="132" selection-start-column="12" selection-end-line="132" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/samples/print.j" />
     <entry file="file://$PROJECT_DIR$/grammars/cs652/j/semantics/Test.g4">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2931">
@@ -1004,7 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1036,15 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/samples/Args.types">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1052,20 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cs652/j/semantics/DefineScopesAndSymbols.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-          <folding>
-            <marker date="1489007017604" expanded="false" signature="4497:4512" ph=" { " />
-            <marker date="1489007017604" expanded="false" signature="4542:4548" ph=" }" />
-            <marker date="1489007017604" expanded="false" signature="4619:4634" ph=" { " />
-            <marker date="1489007017604" expanded="false" signature="4667:4673" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1073,15 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/samples/polymorph.j">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1089,7 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1097,7 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="383" column="4" lean-forward="false" selection-start-line="383" selection-start-column="4" selection-end-line="383" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1109,43 +822,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/samples/deep_hier.types">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-183">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/samples/deep_hier.j">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/samples/retval.j">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/samples/symtab.j">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grammars/cs652/j/semantics/J.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1153,7 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1161,11 +840,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/samples/retval.types">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/samples/Args.types">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/samples/Assign.types">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/samples/deep_hier.types">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/samples/deep_hier.j">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="30" column="58" lean-forward="true" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/samples/Lots.types">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1176,15 +893,56 @@
     <entry file="file://$PROJECT_DIR$/resources/samples/Lots.j">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="19" />
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/samples/symtab.j">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/samples/polymorph.j">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grammars/cs652/j/semantics/J.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cs652/j/semantics/ComputeTypes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="155" column="13" lean-forward="false" selection-start-line="155" selection-start-column="13" selection-end-line="155" selection-end-column="13" />
+        <state relative-caret-position="435">
+          <caret line="81" column="19" lean-forward="true" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
+          <folding>
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs652/j/semantics/DefineScopesAndSymbols.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="981">
+          <caret line="98" column="24" lean-forward="false" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
           <folding />
         </state>
       </provider>
