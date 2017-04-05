@@ -1,54 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a29b0830-f33c-42f0-b584-d6eebe12bdcc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_abego_treelayout_org_abego_treelayout_core_1_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_ST4_4_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_4_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_symtab_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_json_1_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cs652/j/codegen/model/Block.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cs652/j/codegen/model/FieldDef.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cs652/j/codegen/model/FuncExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cs652/j/codegen/model/Function.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cs652/j/codegen/model/IfStat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cs652/j/codegen/model/IndExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cs652/j/codegen/model/MainMethod.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cs652/j/codegen/model/MethodDef.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cs652/j/codegen/model/ParameterDef.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cs652/j/codegen/model/Type.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cs652/j/codegen/model/ValueExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cs652/j/codegen/model/VarDef.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_4_5_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_symtab_1_0_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/cs652/j/semantics/J.tokens" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/cs652/j/semantics/JBaseListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/cs652/j/semantics/JBaseVisitor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/cs652/j/semantics/JLexer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/cs652/j/semantics/JLexer.tokens" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/cs652/j/semantics/JListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/cs652/j/semantics/JParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/cs652/j/semantics/JVisitor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars/cs652/j/semantics/J.g4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars/cs652/j/semantics/J1.g4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars/cs652/j/semantics/Test.g4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cs652/j/semantics/J.g4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cs652/j/semantics/J.tokens" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cs652/j/semantics/J1.g4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cs652/j/semantics/JLexer.tokens" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cs652/j/semantics/Test.g4" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cs652/j/semantics/ComputeTypes.java" afterPath="$PROJECT_DIR$/src/cs652/j/semantics/ComputeTypes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cs652/j/semantics/DefineScopesAndSymbols.java" afterPath="$PROJECT_DIR$/src/cs652/j/semantics/DefineScopesAndSymbols.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/cs652/j/CommonBaseTest.java" afterPath="$PROJECT_DIR$/test/cs652/j/CommonBaseTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/cs652/j/TestExprTypes.java" afterPath="$PROJECT_DIR$/test/cs652/j/TestExprTypes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/cs652/j/TestParser.java" afterPath="$PROJECT_DIR$/test/cs652/j/TestParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/cs652/j/TestSymbolDefs.java" afterPath="$PROJECT_DIR$/test/cs652/j/TestSymbolDefs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vtable.iml" afterPath="$PROJECT_DIR$/vtable.iml" />
-    </list>
+    <list default="true" id="a29b0830-f33c-42f0-b584-d6eebe12bdcc" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -127,7 +80,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainMethod.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainMethod.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cs652/j/codegen/model/MainMethod.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -137,7 +90,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestCGen.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestCGen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/cs652/j/TestCGen.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -897,7 +850,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -919,7 +872,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29411766" sideWeight="0.49721116" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29411766" sideWeight="0.49721116" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30996016" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -951,7 +904,7 @@
         <state relative-caret-position="165">
           <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -977,8 +930,8 @@
         <state relative-caret-position="120">
           <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="false" />
+            <element signature="e#205#206#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1191,9 +1144,9 @@
         <state relative-caret-position="135">
           <caret line="46" column="49" lean-forward="false" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1334#1335#0" expanded="true" />
-            <element signature="e#1366#1367#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1334#1335#0" expanded="false" />
+            <element signature="e#1366#1367#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1344,14 +1297,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cs652/j/codegen/model/MainMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cs652/j/codegen/CodeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -1366,6 +1311,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs652/j/codegen/model/MainMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
           <folding />
         </state>
       </provider>
