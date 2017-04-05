@@ -1,7 +1,7 @@
 package cs652.j;
 
-import cs652.j.semantics.JLexer;
-import cs652.j.semantics.JParser;
+import cs652.j.parser.JLexer;
+import cs652.j.parser.JParser;
 import org.antlr.v4.runtime.ANTLRFileStream;
 import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.BaseErrorListener;

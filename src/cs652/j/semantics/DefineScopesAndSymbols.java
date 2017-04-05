@@ -1,5 +1,6 @@
 package cs652.j.semantics;
 
+import cs652.j.parser.*;
 import org.antlr.symtab.*;
 
 public class DefineScopesAndSymbols extends JBaseListener {
@@ -25,6 +26,7 @@ public class DefineScopesAndSymbols extends JBaseListener {
             String superClass = ctx.typeType().Identifier().getText();
             c.setSuperClass(superClass);
         }
+
         currentScope.define(c);
         c.setEnclosingScope(currentScope);
         currentScope = c;
@@ -42,6 +44,11 @@ public class DefineScopesAndSymbols extends JBaseListener {
     {
         JMethod m = new JMethod(ctx.Identifier().getText(), ctx);
         Type type = (Type)currentScope.resolve(ctx.typeType().getText());
+        String typeName = type.getName();
+        if (typeName.equals("int") || typeName.equals("float") || typeName.equals("void"))
+            ctx.flag = 0;
+        else
+            ctx.flag = 1;
         m.setType(type);
         currentScope.define(m);
         m.setEnclosingScope(currentScope);
@@ -70,6 +77,11 @@ public class DefineScopesAndSymbols extends JBaseListener {
     {
         JArg a = new JArg(ctx.Identifier().getText(), ctx);
         Type type = (Type)currentScope.resolve(ctx.typeType().getText());
+        String typeName = type.getName();
+        if (typeName.equals("int") || typeName.equals("float") || typeName.equals("void"))
+            ctx.flag = 0;
+        else
+            ctx.flag = 1;
         a.setType(type);
         ctx.type = type;
         currentScope.define(a);
@@ -96,6 +108,11 @@ public class DefineScopesAndSymbols extends JBaseListener {
     {
         JVar v = new JVar(ctx.Identifier().getText(), ctx);
         Type type = (Type)currentScope.resolve(ctx.typeType().getText());
+        String typeName = type.getName();
+        if (typeName.equals("int") || typeName.equals("float") || typeName.equals("void"))
+            ctx.flag = 0;
+        else
+            ctx.flag = 1;
         v.setType(type);
         currentScope.define(v);
         ctx.type = type;
@@ -106,6 +123,11 @@ public class DefineScopesAndSymbols extends JBaseListener {
     {
         FieldSymbol f = new FieldSymbol(ctx.Identifier().getText());
         Type type = (Type)currentScope.resolve(ctx.typeType().getText());
+        String typeName = type.getName();
+        if (typeName.equals("int") || typeName.equals("float") || typeName.equals("void"))
+            ctx.flag = 0;
+        else
+            ctx.flag = 1;
         f.setType(type);
         currentScope.define(f);
         ctx.type = type;

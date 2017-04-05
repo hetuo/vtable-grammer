@@ -1,0 +1,106 @@
+CFile(f, classes, main) ::= <<
+#include \<stdio.h>
+#include \<stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = calloc(1, clazz->size); // wipe to 0s
+    p->clazz = clazz;
+    return p;
+}
+
+<classes>
+
+<main>
+>>
+
+ClassDef(class, fields, methods, vtable, sFields, sMethods, sVtable, methodsForSlot) ::= <<
+// D e f i n e  C l a s s  <class.name>
+typedef struct{
+    metadata *clazz;
+    <sFields:{f | <f>;<\n>}><fields:{f | <f>;<\n>}>} <class.name>;
+<sMethods:{m | #define <class.name>_<m.m.name>_SLOT <m.m.slot><\n>}><methods:{m | #define <class.name>_<m.m.name>_SLOT <m.m.slot><\n>}>
+<methodsForSlot:{m | <m><\n>}>
+void (*<class.name>_vtable[])() = {
+    <vtable; separator=",">
+};
+
+metadata <class.name>_metadata = {"<class.name>", sizeof(<class.name>), &<class.name>_vtable};
+
+>>
+
+MethodDef(m,funcName,returnType,args,block) ::= <<
+<returnType> <m.scope>_<m.name>(<args; separator=",">)
+{
+    <block>}
+>>
+
+VtableDef(v) ::= "(void (*)())&<v.className>_<v.methodName>"
+FieldDef(f, type) ::= "<type> <f.fieldName>"
+ParameterDef(p, type) ::= "<type> <p.parameterName>"
+
+MainMethod(main, locals, instrs, whileStat) ::= <<
+int main(int argc, char *argv[])
+{
+    <locals:{l | <l>;<\n>}>
+    <instrs:{s | <s>;<\n>}><whileStat>return 0;
+}
+>>
+
+Block(block, locals, instrs) ::= <<
+<locals:{l | <l>;<\n>}>
+<instrs:{s | <s>;<\n>}>
+>>
+
+VarDef(var, type)   ::= "<type> <var.varName>"
+Type(type)          ::= <<
+<objectType>
+<primitiveType>
+>>
+ObjectType(type)    ::= "<type.name> *"
+PrimitiveType(type) ::= "<type.name>"
+
+FuncName(f)         ::= ""
+ObjectTypeSpec(o)   ::= ""
+PrimitiveTypeSpec(p)::= "<p.name>"
+ReturnStat(r, omo)  ::= "return <omo>"
+
+AssignExpr(a,left,right) ::= "<left>=<right>"
+FuncExpr(f, args, types, d, returnType) ::= "(*(<returnType> (*)(<types; separator=\",\">))(*(<d>)->clazz->_vtable)[<f.t.slotType>_<f.name>_SLOT])(<args; separator=\",\">)"
+CreatorExpr(c) ::= "((<c.name> *)alloc(&<c.name>_metadata))"
+PrintStringStat(p)  ::= ""
+PrintStat(p,args)   ::= ""
+CallStat(c,call)    ::= ""
+CtorCall(ctor)      ::= ""
+
+WhileStat(w,condition, stat) ::= "while (<condition>) {<stat>}"
+IfStat(i,condition, stat) ::= "if (<condition>) <stat>"
+IfElseStat(i,condition, stat, elseStat) ::= "if (<condition>) <stat>; else <elseStat>"
+
+
+
+
+NullRef(n)          ::= "NULL"
+
+LiteralExpr(lit)     ::= "<lit.value>"
+IndExpr(v)           ::= "<v.name>"
+ThisExpr(t, omo)          ::= "((<t.type> *)<omo>)"
+PrintExpr(p, args)         ::= "printf(<args; separator=\",\">)"
+DotExpr(d, nodes)           ::= "<nodes;separator=\"->\">"
+
+FieldRef(f, object) ::= ""
+ThisRef(t)          ::= "this"
+MethodCall(m, receiver, receiverType, fptrType, args) ::= <<
+>>
+
+FuncPtrType(f, returnType, argTypes) ::= ""
+TypeCast(cast, type, expr) ::= ""
