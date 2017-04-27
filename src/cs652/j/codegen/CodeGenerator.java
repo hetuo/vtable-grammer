@@ -69,6 +69,8 @@ public class CodeGenerator extends JBaseVisitor<OutputModelObject> {
     {
         CFile file = new CFile(fileName);
         file.main = (MainMethod) visit(ctx.main());
+// whoa. what is all this nested looping. this is completely bizarre
+// are you trying to look things up superclass chain? Symbol table already does that. Destroy this method and start again
         for (JParser.ClassDeclarationContext c : ctx.classDeclaration())
         {
             ClassDef cd = new ClassDef(c.Identifier().getText());
@@ -192,9 +194,10 @@ public class CodeGenerator extends JBaseVisitor<OutputModelObject> {
         String name = ctx.Identifier().getText();
         String scope = ctx.scope.getEnclosingScope().getName();
         MethodDef m = new MethodDef(name, scope);
+// what is "flag"? Use a real name. Then get rid of it. you can't possibly be using it for anything proper
         if (ctx.flag == 0)
         {
-            m.returnType = new PrimitiveType(ctx.tyep.getName());
+            m.returnType = new PrimitiveType(ctx.tyep.getName()); // somehow you have renamed type to tyep
         }
         else
             m.returnType = new ObjectType(ctx.tyep.getName());
@@ -222,6 +225,7 @@ public class CodeGenerator extends JBaseVisitor<OutputModelObject> {
     {
         Block b = new Block();
         currentScope = ctx.scope;
+// you should have one single loop around the list of statements and I see a nested loop. that is incorrect
         for (JParser.BlockStatementContext state : ctx.blockStatement())
         {
             if (state.getChild(0) instanceof JParser.LocalVariableDeclarationStatementContext)
@@ -229,6 +233,7 @@ public class CodeGenerator extends JBaseVisitor<OutputModelObject> {
                 OutputModelObject omo = visit(state.getChild(0));
                 b.addLocals(omo);
             }
+// why are you re-parsing and trying to figure out if this is a statement?
             if (state.getChild(0) instanceof JParser.StatementContext)
             {
                 //System.out.println("HHHH" + state.getChild(0).getText());
@@ -254,13 +259,15 @@ public class CodeGenerator extends JBaseVisitor<OutputModelObject> {
                     }
                     b.addInstrs(r);
                 }
+// never test for a string when you can use a test of types
                 else if (state.getChild(0).getChild(0).getText().equals("if"))
                 {
-                    System.out.println("HHHHHHHHHHHH");
+                    System.out.println("HHHHHHHHHHHH"); // Get rid of these debugging calls
                     if (state.getChild(0).getChildCount() == 3)
                     {
                         System.out.println("TYTTTTTTTTT");
                         IfStat i = new IfStat();
+// use constructor arguments instead of setting fields
                         i.condition = visit(state.getChild(0).getChild(1).getChild(1));
                         i.stat = visit(state.getChild(0).getChild(2));
                         b.addInstrs(i);
@@ -303,6 +310,7 @@ public class CodeGenerator extends JBaseVisitor<OutputModelObject> {
             }
             if (state.getChild(0) instanceof JParser.StatementContext)
             {
+// you should not be parsing again here. I don't understand why you simply don't ask the visitor to give you the code necessary for each statement
                 if (state.getChild(0).getChild(0).getText().equals("if"))
                 {
                     if (state.getChild(0).getChildCount() == 3)
@@ -385,16 +393,19 @@ public class CodeGenerator extends JBaseVisitor<OutputModelObject> {
         if (ctx.getChild(0) instanceof JParser.IndRefContext)
         {
             Scope scope = currentScope;
+// why do you need to know if the scope is the main?
             while (!scope.getName().equals("main") && !(scope instanceof JClass))
             {
                 scope = scope.getEnclosingScope();
             }
 
             if (!scope.getName().equals("main")){
+// why are you looping across fields?
             for (FieldSymbol f : ((JClass)scope).getDefinedFields())
             {
                 if (f.getName().equals(((IndExpr)assign.left).name))
                 {
+// you cannot use C strings in the model
                     ((IndExpr)assign.left).name = "this->" + ((IndExpr)assign.left).name;
                     break;
                 }
@@ -442,6 +453,7 @@ public class CodeGenerator extends JBaseVisitor<OutputModelObject> {
         return l;
     }
 
+// at this point I'm going to stop doing a review because the code is so bad; sorry to be harsh but this next method is truly impressive in its size and complexity. You can try to rebuild this project if you like but it seems like you have difficulty understanding how all of the pieces fit together. I'm happy to review another attempt if you'd like to do that
     @Override
     public OutputModelObject visitFuncRef(JParser.FuncRefContext ctx)
     {
