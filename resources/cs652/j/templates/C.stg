@@ -38,7 +38,7 @@ metadata <class.name>_metadata = {"<class.name>", sizeof(<class.name>), &<class.
 
 >>
 
-MethodDef(m,funcName,returnType,args,block) ::= <<
+MethodDef(m,returnType,args,block) ::= <<
 <returnType> <m.scope>_<m.name>(<args; separator=",">)
 {
     <block>}
@@ -94,7 +94,7 @@ NullRef(n)          ::= "NULL"
 LiteralExpr(lit)     ::= "<lit.value>"
 IndExpr(v)           ::= "<v.name>"
 ThisExpr(t, omo)          ::= "((<t.type> *)<omo>)"
-PrintExpr(p, args)         ::= "printf(<args; separator=\",\">)"
+PrintExpr(p, args, types, d, returnType)         ::= "printf(<args; separator=\",\">)"
 DotExpr(d, nodes)           ::= "<nodes;separator=\"->\">"
 
 FieldRef(f, object) ::= ""
